@@ -40,3 +40,4 @@ jobs:
           ./gradlew build
           echo "result=OK" >> $GITHUB_OUTPUTS
 
+          git push -u origin master
